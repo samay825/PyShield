@@ -36,10 +36,25 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/samay825/PyShield?style=social" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/samay825/PyShield?style=social" alt="Forks"/>
-  <img src="https://img.shields.io/github/watchers/samay825/PyShield?style=social" alt="Watchers"/>
-  <img src="https://img.shields.io/github/last-commit/samay825/PyShield?style=social" alt="Last Commit"/>
+  <a href="https://github.com/samay825/PyShield/stargazers">
+    <img src="https://img.shields.io/github/stars/samay825/PyShield?style=for-the-badge&logo=github&logoColor=white&label=Stars&color=yellow" alt="Stars"/>
+  </a>
+  <a href="https://github.com/samay825/PyShield/network/members">
+    <img src="https://img.shields.io/github/forks/samay825/PyShield?style=for-the-badge&logo=github&logoColor=white&label=Forks&color=blue" alt="Forks"/>
+  </a>
+  <a href="https://github.com/samay825/PyShield/watchers">
+    <img src="https://img.shields.io/github/watchers/samay825/PyShield?style=for-the-badge&logo=github&logoColor=white&label=Watchers&color=orange" alt="Watchers"/>
+  </a>
+  <a href="https://github.com/samay825/PyShield/commits">
+    <img src="https://img.shields.io/github/last-commit/samay825/PyShield?style=for-the-badge&logo=github&logoColor=white&label=Last%20Commit&color=purple" alt="Last Commit"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/samay825/PyShield?style=flat-square&logo=github&label=Repo%20Size" alt="Repo Size"/>
+  <img src="https://img.shields.io/github/issues/samay825/PyShield?style=flat-square&logo=github&label=Issues" alt="Issues"/>
+  <img src="https://img.shields.io/github/issues-pr/samay825/PyShield?style=flat-square&logo=github&label=Pull%20Requests" alt="PRs"/>
+  <img src="https://img.shields.io/github/downloads/samay825/PyShield/total?style=flat-square&logo=github&label=Downloads" alt="Downloads"/>
 </p>
 
 <p align="center">
@@ -532,6 +547,7 @@ Special thanks to these amazing projects that make PyShield possible:
 <p align="center">
   <sub>⭐ Star this repo if you found it helpful!</sub>
 </p>
+
 
 
 
