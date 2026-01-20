@@ -288,35 +288,58 @@ Visual Studio Build Tools provides the **C++ compiler** required for Cython to c
 
 ---
 
-### 📌 Step 3: Clone & Setup PyShield
+### 📌 Step 3: Download PyShield
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/samay825/PyShield.git
+<p align="center">
+  <a href="https://github.com/samay825/PyShield/releases/tag/v5.0">
+    <img src="https://img.shields.io/badge/⬇️_DOWNLOAD-PyShield_v5.0-00C853?style=for-the-badge&logo=github&logoColor=white" alt="Download"/>
+  </a>
+</p>
 
-# 2. Navigate to project directory
-cd PyShield
+<table align="center">
+<tr>
+<th align="center">📦 Download Option</th>
+<th align="center">📝 Description</th>
+<th align="center">🔗 Link</th>
+</tr>
+<tr>
+<td align="center"><b>🚀 EXE (Recommended)</b></td>
+<td>Ready-to-run Windows executable<br/><sub>No Python installation required!</sub></td>
+<td align="center"><a href="https://github.com/samay825/PyShield/releases/download/v5.0/PyShield-v5.0-Windows.zip"><img src="https://img.shields.io/badge/Download-EXE-blue?style=flat-square&logo=windows" alt="EXE"/></a></td>
+</tr>
+<tr>
+<td align="center"><b>📁 Source Code</b></td>
+<td>Full source code (for developers)<br/><sub>Requires Python & Build Tools</sub></td>
+<td align="center"><a href="https://github.com/samay825/PyShield/archive/refs/tags/v5.0.zip"><img src="https://img.shields.io/badge/Download-ZIP-green?style=flat-square&logo=github" alt="ZIP"/></a></td>
+</tr>
+</table>
 
-# 3. Create virtual environment (highly recommended)
-python -m venv .venv
+<br/>
 
-# 4. Activate virtual environment
-# For PowerShell:
-.\.venv\Scripts\Activate.ps1
+<details>
+<summary><b>🖥️ Option A: Use the EXE (Easiest - No Setup Required!)</b></summary>
 
-# For Command Prompt:
-.\.venv\Scripts\activate.bat
+<br/>
 
-# 5. Install required packages
-pip install -r requirements.txt
-```
+1. **Download** `PyShield-v5.0-Windows.zip` from the link above
+2. **Extract** the ZIP file to any folder
+3. **Double-click** `PyShield.exe` to run
+
+✅ **That's it! No Python, no Build Tools, just run and go!**
+
+</details>
+
+<details>
+<summary><b>👨‍💻 Option B: Run from Source Code (For Developers)</b></summary>
+
+<br/>
 
 ---
 
 ### 📌 Step 4: Launch PyShield
 
 ```bash
-python main.py
+run .exe 
 ```
 
 🎉 **PyShield is now ready to use!**
@@ -547,6 +570,7 @@ Special thanks to these amazing projects that make PyShield possible:
 <p align="center">
   <sub>⭐ Star this repo if you found it helpful!</sub>
 </p>
+
 
 
 
