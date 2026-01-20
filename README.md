@@ -192,10 +192,10 @@ PyShield automatically detects and properly bundles these frameworks:
 
    ```
    ┌─────────────────────────────────────────────────────────────┐
-   │                    Python 3.14.2 Setup                        │
+   │                    Python 3.14.2 Setup                      │
    │                                                             │
-   │  ☑️ Install launcher for all users (recommended)            │
-   │  ☑️ Add python.exe to PATH  ⬅️ IMPORTANT! CHECK THIS!       │
+   │  ☑️ Install launcher for all users (recommended)           
+   │  ☑️ Add python.exe to PATH  ⬅️ IMPORTANT! CHECK THIS!      
    │                                                             │
    │              [ Install Now ]    [ Customize ]               │
    └─────────────────────────────────────────────────────────────┘
@@ -591,4 +591,5 @@ Special thanks to these amazing projects that make PyShield possible:
 <p align="center">
   <sub>⭐ Star this repo if you found it helpful!</sub>
 </p>
+
 
