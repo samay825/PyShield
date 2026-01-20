@@ -274,7 +274,7 @@ Visual Studio Build Tools provides the **C++ compiler** required for Cython to c
 
 4. **Restart your computer** after installation completes
 
-5. **Verify installation** - Open Command Prompt:
+5. **Verify installation** - Open Developer Command Prompt for VS 2022 in your windows 10/11:
    
    ```bash
    cl
@@ -558,6 +558,7 @@ Special thanks to these amazing projects that make PyShield possible:
 <p align="center">
   <sub>⭐ Star this repo if you found it helpful!</sub>
 </p>
+
 
 
 
