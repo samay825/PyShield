@@ -305,7 +305,7 @@ Visual Studio Build Tools provides the **C++ compiler** required for Cython to c
 <tr>
 <td align="center"><b>🚀 EXE (Recommended)</b></td>
 <td>Ready-to-run Windows executable<br/><sub>No Python installation required!</sub></td>
-<td align="center"><a href="https://github.com/samay825/PyShield/releases/download/v5.0/PyShield-v5.0-Windows.zip"><img src="https://img.shields.io/badge/Download-EXE-blue?style=flat-square&logo=windows" alt="EXE"/></a></td>
+<td align="center"><a href="https://release-assets.githubusercontent.com/github-production-release-asset/1138223948/f822dc42-5b87-4d56-a0a3-3273a8712979?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-01-20T13%3A43%3A20Z&rscd=attachment%3B+filename%3DPyShield_v5.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-01-20T12%3A43%3A06Z&ske=2026-01-20T13%3A43%3A20Z&sks=b&skv=2018-11-09&sig=lBYRehEfEwB2IIyPw3ETUF4gTYkIgDsTP7xT2G3LFDo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc2ODkxNTU3MiwibmJmIjoxNzY4OTEzNzcyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.UMs621itIDCGXzIErrLOpi8Ng3iKXz7Uc_AxNRCmr1Y&response-content-disposition=attachment%3B%20filename%3DPyShield_v5.0.0.zip&response-content-type=application%2Foctet-stream"><img src="https://img.shields.io/badge/Download-EXE-blue?style=flat-square&logo=windows" alt="EXE"/></a></td>
 </tr>
 <tr>
 <td align="center"><b>📁 Source Code</b></td>
@@ -570,6 +570,7 @@ Special thanks to these amazing projects that make PyShield possible:
 <p align="center">
   <sub>⭐ Star this repo if you found it helpful!</sub>
 </p>
+
 
 
 
