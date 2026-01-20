@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="images/splashscreen.png" alt="PyShield Logo" width="300"/>
+  <img src="images/splashscreen.png" alt="PyShield Logo" width="400"/>
 </p>
 
 <p align="center">
@@ -591,3 +591,4 @@ Special thanks to these amazing projects that make PyShield possible:
 <p align="center">
   <sub>⭐ Star this repo if you found it helpful!</sub>
 </p>
+
