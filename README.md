@@ -316,21 +316,9 @@ Visual Studio Build Tools provides the **C++ compiler** required for Cython to c
 
 <br/>
 
-<details>
-<summary><b>🖥️ Option A: Use the EXE (Easiest - No Setup Required!)</b></summary>
-
-<br/>
-
-1. **Download** `PyShield-v5.0-Windows.zip` from the link above
-2. **Extract** the ZIP file to any folder
-3. **Double-click** `PyShield.exe` to run
-
-✅ **That's it! No Python, no Build Tools, just run and go!**
-
-</details>
 
 <details>
-<summary><b>👨‍💻 Option B: Run from Source Code (For Developers)</b></summary>
+<summary><b>👨‍💻 Option A: How to use this ?</b></summary>
 
 <br/>
 
@@ -570,6 +558,7 @@ Special thanks to these amazing projects that make PyShield possible:
 <p align="center">
   <sub>⭐ Star this repo if you found it helpful!</sub>
 </p>
+
 
 
 
