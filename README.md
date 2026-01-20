@@ -244,12 +244,12 @@ Visual Studio Build Tools provides the **C++ compiler** required for Cython to c
    ┌─────────────────────────────────────────────────────────────┐
    │           Visual Studio Installer - Workloads               │
    │                                                             │
-   │  ☑️ Desktop development with C++     ⬅️ SELECT THIS!        │
-   │     └── MSVC v143 - VS 2022 C++ x64/x86 build tools        │
-   │     └── Windows 11 SDK (10.0.22621.0)                      │
-   │     └── C++ CMake tools for Windows                        │
+   │  ☑️ Desktop development with C++     ⬅️ SELECT THIS!       │
+   │     └── MSVC v143 - VS 2022 C++ x64/x86 build tools         │
+   │     └── Windows 11 SDK (10.0.22621.0)                       │
+   │     └── C++ CMake tools for Windows                         │
    │                                                             │
-   │  📦 Installation size: ~6.5 GB                              │
+   │  📦 Installation size: ~6.5 GB                              
    │                                                             │
    │                    [ Install ]                              │
    └─────────────────────────────────────────────────────────────┘
@@ -317,34 +317,34 @@ python main.py
 │  🛡️ PyShield v5.0                                    ─ □ ✕     │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  📁 Project Path                                                │
-│  ┌─────────────────────────────────────────────────┐ [Browse]  │
-│  │ C:\Users\You\MyPythonProject                    │           │
-│  └─────────────────────────────────────────────────┘           │
+│  📁 Project Path                                                
+│  ┌─────────────────────────────────────────────────┐ [Browse]   │
+│  │ C:\Users\You\MyPythonProject                    │            │
+│  └─────────────────────────────────────────────────┘            │
 │                                                                 │
-│  ⚙️ Build Options                                               │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ ☑️ Enable Cython Compilation (.py → .pyd)                │   │
-│  │ ☑️ Create Standalone EXE                                 │   │
-│  │ ☐ Request UAC Admin Privileges                          │   │
-│  │ ☐ Show Console Window                                   │   │
-│  └─────────────────────────────────────────────────────────┘   │
+│  ⚙️ Build Options                                               
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │ ☑️ Enable Cython Compilation (.py → .pyd)                
+│  │ ☑️ Create Standalone EXE                                  
+│  │ ☐ Request UAC Admin Privileges                              
+│  │ ☐ Show Console Window                                        
+│  └─────────────────────────────────────────────────────────┘    │
 │                                                                 │
-│  🎨 Icon: [shield.ico]                        [Change Icon]    │
+│  🎨 Icon: [shield.ico]                        [Change Icon]     
 │                                                                 │
-│              ┌──────────────────────┐                          │
-│              │    🚀 BUILD NOW      │                          │
-│              └──────────────────────┘                          │
+│              ┌──────────────────────┐                           │
+│              │    🚀 BUILD NOW      │                           
+│              └──────────────────────┘                           │
 │                                                                 │
-│  📋 Build Log                                                   │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ [16:30:01] ✓ Scanning project imports...                │   │
-│  │ [16:30:02] ✓ Detected 15 Python files                   │   │
-│  │ [16:30:03] ✓ Compiling main.py → main.pyd               │   │
-│  │ [16:30:05] ✓ Compiling utils.py → utils.pyd             │   │
-│  │ [16:30:08] ✓ Creating executable...                     │   │
-│  │ [16:30:45] 🎉 BUILD SUCCESSFUL!                         │   │
-│  └─────────────────────────────────────────────────────────┘   │
+│  📋 Build Log                                                   
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │ [16:30:01] ✓ Scanning project imports...                │    
+│  │ [16:30:02] ✓ Detected 15 Python files                   │    
+│  │ [16:30:03] ✓ Compiling main.py → main.pyd               │    │
+│  │ [16:30:05] ✓ Compiling utils.py → utils.pyd             │    │
+│  │ [16:30:08] ✓ Creating executable...                     │    │
+│  │ [16:30:45] 🎉 BUILD SUCCESSFUL!                         │    │
+│  └─────────────────────────────────────────────────────────┘     
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -355,65 +355,6 @@ python main.py
 2. **Configure Options** → Enable/disable features as needed
 3. **Click Build** → Watch the real-time build progress
 4. **Get Your EXE** → Find it in the `dist/` folder
-
----
-
-## 📁 Project Structure
-
-```
-PyShield/
-│
-├── 📄 main.py                      # Application entry point
-├── 📄 requirements.txt             # Python dependencies
-├── 🖼️ shield.ico                   # Application icon
-├── 📄 LICENSE                      # MIT License
-├── 📄 README.md                    # This file
-│
-├── 📁 src/                         # Source code
-│   ├── 📁 gui/                     # User interface
-│   │   ├── main_window.py          # Main application window
-│   │   ├── splash_screen.py        # Loading splash screen
-│   │   ├── theme.py                # Dark theme styling
-│   │   └── widgets.py              # Custom UI components
-│   │
-│   ├── 📁 engines/                 # Core build engines
-│   │   ├── cython_engine.py        # Cython compilation (.py → .pyd)
-│   │   ├── pyinstaller_engine.py   # EXE generation
-│   │   ├── verification_engine.py  # Build verification
-│   │   └── zip_engine.py           # Distribution packaging
-│   │
-│   ├── 📁 utils/                   # Utility modules
-│   │   ├── config.py               # Configuration management
-│   │   ├── logger.py               # Logging utilities
-│   │   └── resource_helper.py      # Resource management
-│   │
-│   └── 📁 workers/                 # Background workers
-│       └── build_worker.py         # Async build processing
-│
-├── 📁 assets/                      # Documentation assets
-│   ├── logo.png                    # Project logo
-│   ├── demo.gif                    # Demo animation
-│   └── screenshots/                # Screenshot images
-│
-└── 📁 dist/                        # Build output (generated)
-    └── YourProject/
-        ├── YourProject.exe         # Your protected executable
-        └── _internal/              # Runtime dependencies
-```
-
----
-
-## 📸 Screenshots
-
-<p align="center">
-  <img src="assets/screenshots/main-window.png" alt="Main Window" width="45%"/>
-  <img src="assets/screenshots/build-progress.png" alt="Build Progress" width="45%"/>
-</p>
-
-<p align="center">
-  <img src="assets/screenshots/splash-screen.png" alt="Splash Screen" width="45%"/>
-  <img src="assets/screenshots/settings.png" alt="Settings" width="45%"/>
-</p>
 
 ---
 
@@ -591,5 +532,6 @@ Special thanks to these amazing projects that make PyShield possible:
 <p align="center">
   <sub>⭐ Star this repo if you found it helpful!</sub>
 </p>
+
 
 
